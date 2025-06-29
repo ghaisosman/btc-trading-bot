@@ -1,11 +1,11 @@
 services:
   - type: web
-    name: btc-bot
+    name: btc-trading-bot
     env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
+    buildCommand: |
+      echo "python-3.10.13" > runtime.txt
+      pip install -r requirements.txt
     startCommand: python main.py
-    runtime: python3.10
     envVars:
       - key: BINANCE_API_KEY
         value: your_api_key_here
