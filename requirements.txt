@@ -1,6 +1,7 @@
+pandas
+pandas_ta
+requests
 flask
 python-binance
-pandas
-pandas-ta
-requests
 pytz
+setuptools
