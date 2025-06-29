@@ -1,8 +1,9 @@
-numpy==1.24.3
+setuptools>=67.0.0
+wheel
+pip
 pandas
 pandas_ta
 requests
 flask
 python-binance
 pytz
-setuptools
